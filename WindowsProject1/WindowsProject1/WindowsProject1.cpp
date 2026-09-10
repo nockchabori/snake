@@ -173,7 +173,6 @@ int APIENTRY wWinMain(HINSTANCE hInst, HINSTANCE, LPWSTR, int nCmdShow) {
     GdiplusStartupInput gdiplusStartupInput;
     ULONG_PTR gdiplusToken = 0;
     GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, nullptr);
-
     gImg = Image::FromFile(L"head.png");
     apple = Image::FromFile(L"apple.png");
     body = Image::FromFile(L"body.png");
@@ -197,7 +196,7 @@ int APIENTRY wWinMain(HINSTANCE hInst, HINSTANCE, LPWSTR, int nCmdShow) {
     kClass, L"snake",
     WS_OVERLAPPEDWINDOW,
     CW_USEDEFAULT, CW_USEDEFAULT,
-    WIN_W, WIN_H,
+    1015, 980,
     nullptr, nullptr, hInst, nullptr);
     ShowWindow(hWnd, nCmdShow);
     UpdateWindow(hWnd);
