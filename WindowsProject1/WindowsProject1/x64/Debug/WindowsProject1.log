@@ -1,7 +1,0 @@
-﻿  WindowsProject1.cpp
-C:\Users\yjgpa\source\repos\WindowsProject1\WindowsProject1\WindowsProject1.cpp(52,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\yjgpa\source\repos\WindowsProject1\WindowsProject1\WindowsProject1.cpp(53,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\yjgpa\source\repos\WindowsProject1\WindowsProject1\WindowsProject1.cpp(69,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\yjgpa\source\repos\WindowsProject1\WindowsProject1\WindowsProject1.cpp(70,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\yjgpa\source\repos\WindowsProject1\WindowsProject1\WindowsProject1.cpp(89,19): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  WindowsProject1.vcxproj -> C:\Users\yjgpa\source\repos\WindowsProject1\x64\Debug\WindowsProject1.exe
